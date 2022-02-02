@@ -12,4 +12,4 @@ https://felixa-github.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Felix]
-# run-buddy
+
