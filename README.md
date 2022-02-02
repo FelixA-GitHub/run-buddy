@@ -1,15 +1,15 @@
 # Run Buddy
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers Fitness Training Services.
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://FelixA-GitHub.github.io/run-buddy/
+https://felixa-github.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Felix]
-# run-buddy
+
