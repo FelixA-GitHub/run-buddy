@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://FelixA-GitHub.github.io/run-buddy/
+https://felixa-github.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Felix]
