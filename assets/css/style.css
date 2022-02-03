@@ -89,6 +89,23 @@ section {
     right: 140px;
 }
 
+.hero-cta h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    color: #fce138;
+    margin: 0;
+    position: absolute;
+    left: 100px;
+}
+
+.hero-cta p {
+    color: white;
+    position: relative;
+    top: 100px;
+    
+}
+
 h3 {
     margin: 0px;
     font-size: x-large;
