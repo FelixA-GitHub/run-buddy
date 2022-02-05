@@ -1,3 +1,9 @@
+:root {
+    --primary-color: var(--primary-color);
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,13 +36,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--primary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
-    color: #fce138;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -59,14 +65,14 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #fce138;
+    background: var(--primary-color);
     color: #024e76;
     border-radius: 15px;
     text-shadow: none;
 }  
 
 footer {
-    background: #fce138;
+    background: var(--primary-color);
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -107,7 +113,7 @@ section {
 
 .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: var(--primary-color);
     padding: 20px;
     color: #024e76;
     width: 40%;
@@ -191,7 +197,7 @@ section {
 .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
-    color: #fce138;
+    color: var(--primary-color);
 }
 
 .hero-cta p {
@@ -231,7 +237,7 @@ h3 {
 }
 
 .hero-form button {
-    color: #fce138;
+    color: var(--primary-color);
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
@@ -253,7 +259,7 @@ h3 {
 }
 
 .steps {
-    background: #fce138;
+    background: var(--primary-color);
 }
 
 .section-title {
@@ -267,7 +273,7 @@ h3 {
 }
   
 .primary-border {
-    border-color: #fce138;
+    border-color: var(--primary-color);
 }
   
 .secondary-border {
@@ -335,7 +341,7 @@ h3 {
 .trainer {
     margin: 20px;
     background: #024e76;
-    color: #fce138;
+    color: var(--primary-color);
     flex: 1;
 }
 
@@ -367,7 +373,7 @@ h3 {
 }
 
 .contact h2 {
-    color: #fce138;
+    color: var(--primary-color);
 }
 
 .contact-info {
@@ -390,7 +396,7 @@ h3 {
 }
 
 .contact-info h3 {
-    color: #fce138;
+    color: var(--primary-color);
     font-size: 32px;
 }
 
@@ -427,7 +433,7 @@ h3 {
 .contact-form button {
     width: 100%;
     border: none;
-    background: #fce138;
+    background: var(--primary-color);
     color: #024e76;
     text-align: center;
     padding: 15px 0;
@@ -436,12 +442,12 @@ h3 {
 }
 
 .contact-form button:hover {
-    color: #fce138;
+    color: var(--primary-color);
     background: #39a6b2;
 }
 
 .contact-info a {
-    color: #fce138;
+    color: var(--primary-color);
 }
 
 .text-left {
