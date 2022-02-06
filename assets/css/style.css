@@ -1,4 +1,11 @@
-* {
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+  
+  * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -270,7 +277,6 @@ h3 {
     line-height: 1.7;
     color: var(--tertiary-color);
     width: 80%;
-    font-size: 20px;
     margin: 0 auto;
     text-align: center;
 }
@@ -415,9 +421,9 @@ h3 {
 .contact-info h3 {
     color: var(--primary-color);
     font-size: 32px;
-}
-
-.contact-info p, .contact-info address {
+  }
+  
+  .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
